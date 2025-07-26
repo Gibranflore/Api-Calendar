@@ -1,0 +1,13 @@
+
+npm init -y iniciar el package.json
+
+node index.js
+
+npm install nodemon -g //la G lo instala de manera global
+
+nodemon index.js
+
+  "scripts": {
+    "dev": "nodemon index.js", //Esto es para el desarrollo de pruebas
+    "start": "node index.js"   //Esto es para el desarrollo de produccion
+  },
